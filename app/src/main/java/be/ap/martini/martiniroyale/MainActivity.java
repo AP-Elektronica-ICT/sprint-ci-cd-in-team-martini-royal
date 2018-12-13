@@ -110,8 +110,8 @@ public class MainActivity extends AppCompatActivity
     public void onKeyMetric(View view) {
         // TODO: Use your own string attributes to track common values over time
         // TODO: Use your own number attributes to track median value over time
-        Answers.getInstance().logCustom(new CustomEvent("Video Played")
-                .putCustomAttribute("Category", "Comedy")
+        Answers.getInstance().logCustom(new CustomEvent("Button pressed")
+                .putCustomAttribute("Category", "Test")
                 .putCustomAttribute("Length", 350));
     }
 
